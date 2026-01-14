@@ -10,8 +10,9 @@ import SearchIcon from './search.svg';
 const API_URL = 'http://www.omdbapi.com?apikey=31131f1';
 
 const movie1 = {
-    
-   
+
+
+
     "Title": "The Avengers",
     "Year": "2012",
     "imdbID": "tt0848228",
@@ -23,7 +24,7 @@ const movie1 = {
 
 const App = () => {
 
-    const [ movies, setMovies ] = useState([]);
+    const [ movies, setMovies ] = useState([movie1]);
     const [ searchTerm, setSearchTerm ] = useState('');
 
     
